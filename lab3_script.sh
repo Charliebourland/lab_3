@@ -8,6 +8,7 @@ echo "Enter a File name: "
 read name
 echo "Enter a regular expression: "
 read ex
+
 grep $ex $name >> email_results.txt
 grep -c $ex $name 
 
